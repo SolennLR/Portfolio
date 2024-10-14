@@ -96,7 +96,7 @@ function AppBanner() {
 					src={
 						activeTheme === 'dark'
 							? '/images/developer.jpg'
-							: '/images/developer-dark.jpg'
+							: '/images/developer.jpg'
 					}
 					alt="Developer"
 				/>

@@ -87,45 +87,98 @@ export const projectsData = [
 					],
 				},
 			],
-			ProjectDetailsHeading: 'Challenge',
+			ProjectDetailsHeading: 'Architecture',
 			ProjectDetails: [
 				{
 					id: uuidv4(),
 					details:
-						'L\'architecture du projet semble être organisée selon une structure typique d\'une application Java utilisant des technologies modernes pour le développement, le scrapping web, et l\'envoi d\'emails. Voici un aperçu de l\'architecture du projet :  \n' +
-						'1. Structure de l\'application\n' +
-						'Packages : Le projet est organisé en plusieurs packages, chacun ayant une responsabilité spécifique, par exemple fr.cda.immobilier.utils pour les utilitaires, fr.cda.immobilier.modele.DAO pour les objets d\'accès aux données (DAO), etc.\n' +
-						'Classes : Les classes sont bien définies avec des responsabilités claires, comme EmailTools pour la gestion des emails, DaoFactory pour la gestion des connexions et des DAO, etc.\n' +
-						'3. Patrons de Conception\n' +
-						'DAO (Data Access Object) : Utilisé pour l\'abstraction et la gestion des opérations de base de données.\n' +
-						'Factory : Utilisé pour la création des instances de DAO (DaoFactory).\n' +
-						'Singleton : Probablement utilisé pour la gestion de la configuration de l\'API Sendinblue.\n' +
-						'4. Fonctionnalités Clés\n' +
-						'Scrapping Web : Utilisation de HTMLUnit pour extraire des données de pages web.\n' +
-						'Envoi d\'Emails : Utilisation de l\'API Sendinblue pour envoyer des emails avec des pièces jointes.\n' +
-						'Gestion des Connexions : Utilisation de JDBC pour la connexion à la base de données MySQL.\n' +
-						'5. Gestion des Exceptions\n' +
-						'Les exceptions sont gérées de manière appropriée avec des blocs try-catch, et les erreurs sont journalisées à l\'aide de Log4j.\n' +
-						'6. Multithreading\n' +
-						'Utilisation de threads pour l\'envoi d\'emails (EmailTools implémente Runnable).\n' +
-						'7. Configuration\n' +
-						'Les configurations, telles que les clés d\'API et les chemins de fichiers, sont définies dans les classes appropriées.\n' +
+						'L\'architecture du projet est organisée selon une structure typique d\'une application Java utilisant des technologies modernes pour le développement, le scrapping web, et l\'envoi d\'emails. Voici un aperçu de l\'architecture du projet :'
+
+//						'2. Patrons de Conception',
+//						'DAO (Data Access Object) : Utilisé pour l\'abstraction et la gestion des opérations de base de données.\n' +
+//						'Factory : Utilisé pour la création des instances de DAO (DaoFactory).\n' +
+//						'Singleton : Probablement utilisé pour la gestion de la configuration de l\'API Brevo.\n' +
+
+				},
+				{
+					id: uuidv4(),
+					details:
+						'1. Structure de l\'application',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Packages : Le projet est organisé en plusieurs packages, chacun ayant une responsabilité spécifique, par exemple fr.cda.immobilier.utils pour les utilitaires, fr.cda.immobilier.modele.DAO pour les objets d\'accès aux données (DAO), etc.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Classes : Les classes sont bien définies avec des responsabilités claires, comme EmailTools pour la gestion des emails, DaoFactory pour la gestion des connexions et des DAO, etc.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'2. Fonctionnalités Clés',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Scrapping Web : Utilisation de HTMLUnit pour extraire des données de pages web.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Envoi d\'Emails : Utilisation de l\'API Brevo pour envoyer des emails avec des pièces jointes.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Gestion des Connexions : Utilisation de JDBC pour la connexion à la base de données MySQL.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'3. Gestion des Exceptions',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Les exceptions sont gérées avec des blocs try-catch, et les erreurs sont journalisées à l\'aide de Log4j.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'4. Multithreading',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Utilisation de threads pour l\'envoi d\'emails (EmailTools implémente Runnable).',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'5. Configuration',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Les configurations, telles que les clés d\'API et les chemins de fichiers, sont définies dans les classes appropriées.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'6. Documentation',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Les configurations, telles que les clés d\'API et les chemins de fichiers, sont définies dans les classes appropriées.',
+				},
+				{
+					id: uuidv4(),
+					details:
 						'Cette architecture modulaire et bien organisée permet une maintenance facile et une extensibilité de l\'application.',
-				},
-				{
-					id: uuidv4(),
-					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-				},
-				{
-					id: uuidv4(),
-					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-				},
-				{
-					id: uuidv4(),
-					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
 				},
 			],
 			//SocialSharingHeading: 'Share This',
@@ -229,6 +282,8 @@ export const projectsData = [
 						'Base de données : MySQL',
 						'Framework de test : JUnit 5',
 						'API de servlets : Javax Servlet API',
+						'Connexion à la base de données : JDBC MySQL',
+						'IDE : IntelliJ IDEA',
 					],
 				},
 			],
